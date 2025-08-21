@@ -12,4 +12,4 @@ It showcases my work in **Web Design** and **UI/UX Design**, along with some Can
 - HTML5  
 - CSS3  
 - JavaScript (basic)  
-- figma (for CV)
+- figma (for Resume)
