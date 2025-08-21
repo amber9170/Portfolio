@@ -1,0 +1,410 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar-1 {
+    width: 100%;
+    height: 80px;
+    background-color: #0F828C;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+}
+.contact {
+     display: flex;
+     padding-right: 60px;
+     gap: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color:#0F828C; 
+}
+.num-1, .num-2 {
+    display: flex;
+    align-items: center;
+    background-color:#0F828C; 
+    gap: 4px;              
+}
+
+.num-1 h5, .num-2 h5 {
+    margin: 0;             
+    font-size: 14px;
+    font-weight: lighter;
+}
+.logo {
+  background-color:#0F828C; ;
+}
+.navbar-2{
+    width: 80%;
+    height: 80px;
+    background-color:#78B9B5;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navbar-2 a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+     display: flex; 
+     align-items: center; 
+      width: 100%;
+      height: 10vh;
+      flex-direction: column;
+      margin-top: 100px;
+      color: white;
+}
+header {
+  background-color: #065084;
+  color: white;
+}
+.hero h1 {
+  font-size:3rem;
+  font-weight: bold;
+  margin-left: 0;
+  display: inline-block;
+  min-width: 300px;  
+  text-align:left;    
+  white-space: nowrap; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero p {
+      font-size: 20px;
+      margin-bottom:10px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.intro p {
+    width: 30%;
+    font-size: 20px;
+}
+.icons {
+    display: flex;
+    gap: 5px; 
+    margin-top: 10px;
+}
+.tiktok , .insta , .linkedin {
+   height: 40px;
+   width: 40px;
+   border-radius: 50px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  border: 1px solid #ccc;
+  margin: 5px;  
+  transition: background 0.4s;
+}
+
+.tiktok:hover , .insta:hover , .linkedin:hover {
+  background: linear-gradient(135deg,#0F828C, #FE2C55);
+  cursor: pointer;
+}
+button {
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #0F828C;
+     border: 1px solid #ccc;
+     color: white;
+    margin-top: 15px;
+}
+.bottom 
+{
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    padding-top: 30px;
+}
+.about-section h1   , .skills-section h1  ,.project-section h1  , .resume-section h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+     text-align: center;
+     width: 100%;
+     padding-top: 40px;
+}
+ .about-section h3 {
+    padding-top: 40px;
+}
+.about-section p {
+    font-size: 20px;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #065084;
+    color: white;
+}
+.skills-section , .project-section,.resume-section{
+  background-color: #065084;
+  color: white;
+}
+.clr {
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 30px;
+}
+.about-section p{
+    width: 50vw;
+    margin-top: 20px;
+}
+.skill {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .skill-name {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .skill-bar {
+    width: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .skill-fill {
+    height: 25px;
+    width: 10px;
+     background: linear-gradient(135deg,#0F828C,#FE2C55);
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+  }
+
+  .skill-percent {
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  .link {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0;
+  }
+  .link a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+  .all {
+    height: 30px;
+    width: 70px;
+     border: 1px dotted beige;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .web  , .canva{
+  height: 30px;
+  width: 120px;
+    border: 1px dotted beige;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ui {
+    height: 30px;
+    width: 100px;
+    border: 1px dotted beige;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all:hover  , .web:hover , .ui:hover , .canva:hover {
+     background: linear-gradient(135deg, #25F4EE, #FE2C55);
+  }
+
+  .imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px;
+  max-width: 1000px;
+   margin:  auto;  
+  padding: 40px 30px;
+  background-color: #065084;
+}
+
+.web-img, 
+.ui-img {
+  display: contents; 
+}
+
+.web-img > div,
+.ui-img > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  height: 260px; 
+}
+
+.web-img img,
+.ui-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+  transition: transform 0.4s ease;
+  border: 2px solid black;
+}
+
+.web-img > div:hover img,
+.ui-img > div:hover img {
+  transform: scale(1.05);
+}
+
+.text {
+  position: absolute;
+  bottom: -100%; 
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85); 
+  color: #000;
+  text-align: center;
+  padding: 15px;
+  transition: bottom 1s linear;
+}
+
+.web-img > div:hover .text,
+.ui-img > div:hover .text {
+  bottom: 0; 
+}
+.hide {
+  display: none !important;
+}
+.resume-section {
+  padding: 64px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr; 
+  gap: 32px;
+  align-items: start;
+}
+.resume-preview {
+  width: 100%;
+  max-width: 500px;
+}
+
+.resume-preview img {
+  width: 100%;
+  height: auto;      
+  display: block;
+  border-radius: 12px;
+  object-fit: contain; 
+}
+.resume-info h2 {
+  font-size: 2rem;
+  padding-bottom: 12px;
+}
+
+.resume-blurb {
+  line-height: 1.65;
+  padding-bottom: 20px;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid #293241;
+  transition: transform .12s ease, background .2s ease, border-color .2s ease;
+}
+
+.btn.primary {
+  background: #0F828C;
+  color: #fff;
+  border-color: #0F828C;
+}
+
+.btn.primary:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+}
+
+.btn.ghost {
+  background: #0F828C;
+  color: white;
+}
+
+.btn.ghost:hover {
+  border-color:#0F828C;
+  transform: translateY(-1px);
+}
+
+.resume-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 8px;
+}
+.resume-highlights li {
+  border: 1px solid #222938;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+@media (max-width: 900px) {
+  .resume-container {
+    grid-template-columns: 1fr;
+  }
+  .resume-preview {
+    max-width: 100%;
+  }
+}
+
+
+
+
